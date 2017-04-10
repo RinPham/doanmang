@@ -15,7 +15,7 @@ var room = require('./model/rooms');
 var ascoltatore = {
   //using ascoltatore
   type: 'mongo',
-  url: 'mongodb://localhost:27017/mqtt',
+  url: 'mongodb://<admin>:<admin>@ds157740.mlab.com:57740/mqtt',
   pubsubCollection: 'ascoltatori',
   mongo: {}
 };
